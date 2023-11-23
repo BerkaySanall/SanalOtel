@@ -1,0 +1,129 @@
+body {
+    background-image: url('Oda.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    
+}
+
+.butonlar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.arka-plan {
+        width: 80%;
+        margin: 20px auto;
+        background-color: #ad6f0500;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: left;
+        margin-left: 0%;
+        margin-top: 0%;
+        font-size: xx-large;
+}
+
+h1 {
+    color: #e1dcdc;
+    text-align: left;
+    margin-top: 0%;
+    font-size: 180%;
+}
+
+h2 {
+    color: #e1dcdc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Otel Hakkında sayfası için stiller */
+/* Bu kısım, otel hakkında sayfasındaki öğeleri stilize eder */
+/* Burayı otel bilgilerinize göre düzenleyebilirsiniz */
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+    color: #e1dcdc;
+    font-size: 100%;
+}
+
+.rezervasyon-butonu {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ad6f05;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: 110%;
+    text-align: center;
+    font-size: x-large;
+}
+
+.rezervasyon-butonu:hover {
+    background-color: rgb(36, 19, 1);
+}
+/* Footer stil */
+.footer {
+    background-color: #ffffff00;
+    color: #fff;
+}
+
+/* Rezervasyon butonu */
+form {
+    text-align: center;
+    color: #e1dcdc;
+    background-color: #e1dcdc;
+}
+
+.hakkimizda,
+.galeri {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ad6f05;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.hakkimizda:hover,
+.galeri:hover {
+    background-color: rgb(36, 19, 1);
+}
+
+.rezervasyon-butonu,
+.hakkimizda,
+.galeri {
+    display: block;
+    width: fit-content;
+    padding: 15px 20px;
+    background-color: #ad6f05;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    margin: 30px auto;
+    margin-left: 0%;
+    text-align: center;
+}
+
+/* Hover stil */
+.rezervasyon-butonu:hover,
+.hakkimizda:hover,
+.galeri:hover {
+    background-color: rgb(36, 19, 1);
+}

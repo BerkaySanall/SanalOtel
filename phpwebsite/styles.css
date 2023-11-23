@@ -1,0 +1,85 @@
+/* Genel stiller */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('Oda.png'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: right;
+    color: #ece4e4; 
+}
+
+/* Arka plan stilleri */
+.arkaplan {
+    width: 80%;
+    margin: 100%; /* Değiştirildi: 20px */
+    background-color: #ad6f0500;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+main {
+
+    background-color: rgba(83, 56, 9, 0.692)
+}
+
+h1 {
+    color: #e1dcdc;
+    text-align: left;
+    font-size: 300%;
+    margin-left: 70;
+}
+
+h2 {
+    color: #e1dcdc;
+    font-size: 250%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 110%;
+    margin-bottom: 20%;
+}
+
+/* Buton ve form stilleri */
+form {
+    text-align: left;
+    color: #e1dcdc;
+    background-color: #e1dcdc;
+}
+
+.button-container {
+    text-align: left; 
+    margin-top: 20px; 
+}
+
+.rezervasyon-butonu,
+.galeri {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #ad6f05;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    margin-left: 50px; 
+    font-size: large;
+}
+
+.rezervasyon-butonu:hover,
+.galeri:hover {
+    background-color: rgb(36, 19, 1);
+}
